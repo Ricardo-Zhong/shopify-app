@@ -1,0 +1,10 @@
+type = "checkout_ui_extension"
+name = "profitable-vertical-ext"
+
+extension_points = [
+  'Checkout::Dynamic::Render',
+  'Checkout::CustomerInformation::RenderAfter
+]
+
+[capabilities]
+api_access = true
